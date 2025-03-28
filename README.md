@@ -64,10 +64,10 @@ Search Users: Use the search input to filter users by their first or last name.
 API Endpoints Used
 
 
-Login: POST https://reqres.in/api/login
-Get Users: GET https://reqres.in/api/users?page={page}
-Update User: PUT https://reqres.in/api/users/{id}
-Delete User: DELETE https://reqres.in/api/users/{id}
+*Login: POST https://reqres.in/api/login
+*Get Users: GET https://reqres.in/api/users?page={page}
+*Update User: PUT https://reqres.in/api/users/{id}
+*Delete User: DELETE https://reqres.in/api/users/{id}
 
 
 #Error Handling
@@ -80,3 +80,7 @@ The application can be deployed on platforms like Vercel or Netlify. Follow thei
 
 #Acknowledgments
 Thanks to Reqres API for providing the mock data for this application.
+
+
+
+#Drive link For .zip file
