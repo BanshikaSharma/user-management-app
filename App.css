@@ -1,0 +1,134 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #a8c8e0, #f0e6f6); /* Soft gradient background */
+  margin: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4a4a4a; /* Dark gray for headings */
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #4a4a4a; /* Dark gray for subheadings */
+  margin-bottom: 10px;
+}
+
+/* Form Styles */
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  background-color: #f9f9f9; /* Light gray background for form controls */
+  color: #333; /* Dark text color */
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6c63ff; /* Soft purple color for buttons */
+  color: white; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #5a54e0; /* Darker purple for button hover */
+}
+
+/* Table Styles */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.table th {
+  background-color: #f0f0f0; /* Light gray background for table headers */
+  color: #4a4a4a; /* Dark gray for table headers */
+}
+
+/* Pagination Styles */
+
+.pagination {
+  justify-content: center;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 8px 12px;
+  border: 1px solid #6c63ff; /* Soft purple for pagination links */
+  border-radius: 4px;
+  color: #6c63ff; /* Soft purple for pagination links */
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: #6c63ff; /* Soft purple for pagination link hover */
+  color: white; /* White text color on hover */
+}
+
+/* Alert Styles */
+
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  background-color: #f9f9f9; /* Light gray background for alerts */
+  color: #333; /* Dark text color for alerts */
+}
+
+.alert-danger {
+  background-color: #ffdddd; /* Light red for danger alerts */
+  border-color: #ffcccc; /* Light red border for danger alerts */
+  color: #d8000c; /* Dark red text for danger alerts */
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .container {
+      margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      margin: 5px;
+  }
+}
