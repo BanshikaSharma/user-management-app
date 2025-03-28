@@ -1,3 +1,6 @@
+![Screenshot 2025-03-28 002648](https://github.com/user-attachments/assets/d6b1fae5-b17d-43a9-a8ed-6a5ce08e1b37)
+
+
 # User Management Application
 
 ## Overview
@@ -9,6 +12,9 @@ This is a User Management application built with React that integrates with the 
 - Edit user details
 - Delete users
 - Client-side search functionality
+
+![Screenshot 2025-03-28 193941](https://github.com/user-attachments/assets/c34806a6-f30e-4787-b29b-768cec8663f1)
+
 
 ## Technologies Used
 - React
